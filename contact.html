@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web-Agency</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        #top-div{
+            background: navy;
+            height: 350px;
+            width: 100%;
+        }
+        h1{
+            color: whitesmoke;
+            font-size: 60px;
+            text-align: center;
+            padding-top: 2%;
+            font-family:fantasy;
+        }
+        #a1, #a2, #a3, #a4, #a5{
+            color: whitesmoke;
+            padding-left: 10%;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p{
+            text-align: center;
+            color: whitesmoke;
+            font-family: 'lobster' , cursive;
+            font-size: 30px;
+            padding-top: 2%;
+        }
+        .main{
+            display: flex;
+            flex-wrap: nowrap;
+
+        }
+        #side-bar{
+            height: 660px;
+            width: 550px;
+            background: white;
+            border-top-right-radius: 40px;
+            border-bottom-right-radius: 40px;
+            border: 5px solid black; 
+            margin-top: 5%; 
+            background: whitesmoke;  
+        }
+        #main-div{
+            border: 4px solid black;
+            height: 660px;
+            width: 30%;
+            margin-top: 5%;
+            background: navy;
+            margin-left: 8%;
+            border-bottom-left-radius: 40px;
+            border-top-left-radius: 40px;
+            margin-bottom: 5%;
+        }
+        #head{
+            color:  black;
+            padding-top: 5%;
+        }
+        .img{
+            padding-top: 55%;
+            padding-left:  25%;
+        }
+        .other-link{
+            margin-top: 20%;
+            height: 580px;
+            width: 600px;
+            border: 5px solid black;
+            background: navy;
+            margin-bottom: 5%;
+            
+        }
+        #fb{
+            height: 10%;
+            width: 40%;
+            margin-top: 10%;
+            margin-left: 30%;
+            color: black;
+            border: 2px solid black
+        }
+        #tw{
+            height: 10%;
+            width: 40%;
+            margin-top: 10%;
+            margin-left: 30%;
+            color: black;
+            border: 2px solid black
+        }
+        #fiverr{
+            height: 10%;
+            width: 40%;
+            margin-top: 10%;
+            margin-left: 30%;
+            color: black;
+            border: 2px solid black;
+        }
+        #h1{
+            color: white;
+            text-align: center;
+            margin-top: 5%;
+            font-size: 30px;
+
+        }
+        #fb:hover{
+            height: 13%;
+            width: 43%;
+        }
+        #tw:hover{
+            height: 13%;
+            width: 43%;
+        }
+        #fiverr:hover{
+            height: 13%;
+            width: 43%;
+        }
+        #free{
+            height: 10%;
+            width: 40%;
+            margin-top: 10%;
+            margin-left: 30%;
+            color: black;
+            border: 2px solid black
+        }
+        #free:hover{
+            height: 13%;
+            width: 43%;
+        }
+        .contact{
+		padding: 4%;
+		height: 400px;
+        }
+        .col-md-3{
+            background: #ff9b00;
+            padding: 4%;
+            border-top-left-radius: 0.5rem;
+            border-bottom-left-radius: 0.5rem;
+        }
+        .contact-info{
+            margin-top:10%;
+        }
+        .contact-info img{
+            margin-bottom: 15%;
+        }
+        .contact-info h2{
+            margin-bottom: 10%;
+        }
+        .col-md-9{
+            background: #fff;
+            padding: 3%;
+            border-top-right-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+        }
+        .contact-form label{
+            font-weight:600;
+        }
+        .contact-form button{
+            color: #fff;
+            font-weight: 600;
+            width: 25%;
+        }
+        .contact-form button:focus{
+            box-shadow:none;
+        }
+        #btn{
+            background: black;
+            color: white;
+        }
+        #btn:hover{
+            background: white;
+            color: black;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+        <div id="top-div">
+                <h1>
+                    Web Agency
+                </h1>
+                <p>
+                    We are web developer.And we are freelancers.
+                </p>
+                <br>
+                <br>
+                <br>
+                <a href="./index,.html" id="a1">Home</a>
+                <a href="./library.html" id="a2">Library</a>
+                <a href="./video.html" id="a3">Videos</a>
+                <a href="./about.html" id="a4">About Us</a>
+                <a href="./contact.html" id="a5">Contact Us</a>
+                </div>
+        <div class="main">
+        <div id="main-div">
+                <img src="./logo.jpg" class="img">
+        </div>
+        <div id="side-bar">
+                <h1 id="head">Comment</h1>
+                <div class="form-group">
+                        <label class="control-label col-sm-2" for="fname">First Name:</label>
+                        <div class="col-sm-10">          
+                          <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname" required>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-sm-2" for="lname">Last Name:</label>
+                        <div class="col-sm-10">          
+                          <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname" required>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-sm-2" for="email">Email:</label>
+                        <div class="col-sm-10">
+                          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="control-label col-sm-2" for="comment">Comment:</label>
+                        <div class="col-sm-10">
+                          <textarea class="form-control" rows="5" id="comment" required></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group">        
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <button type="submit" class="btn btn-default" id="btn" onclick="msg();">Submit</button>
+                        </div>
+                      
+            </div>
+            
+            <div class="other-link">
+                <h1 id="h1">Contact from social media</h1>
+                <a href="https://www.facebook.com/Web-Agency-611965575911910/" ><button id="fb"><img src="./iconfinder_facebook_274791.png">Connect from Facebook</button></a>
+                <br>
+                <a href="https://twitter.com/WEbAgency5"><button id="tw"><img src="./iconfinder_twitter_294655.png">Connect from Twitter</button></a>
+                <br>
+                <a href="https://www.fiverr.com/websiteagenc109?up_rollout=true"><button id="fiverr"><img src="./iconfinder_fiverr_3069760.png">Connect from fiverr</button></a>
+
+                <a href="https://www.freelancer.com/u/webagency100?w=f"><button id="free"><img src="./iconfinder_fiverr_3069760.png">Connect from freelancer</button></a>
+
+            </div>
+            </div>
+        
+<script>
+function msg(){
+    var fname = document.getElementById("fname");
+    var lname  = document.getElementById("lname");
+    if(fname){
+    alert("Thankyou for your comment");
+    }
+}
+
+
+
+</script>
+            
+</body>
+</html>
